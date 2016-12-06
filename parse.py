@@ -22,6 +22,6 @@ for i in range(0,len(input_log)):
                 break
 
 for k in range(0,len(output)):
-    f2.write('/home/dotza/tools/changeip/updater.jar ' + output[k][0] +
+    f2.write('java -jar /home/dotza/tools/changeip/updater.jar ' + output[k][0] +
              ' ' + output[k][1] + '\n')
 print 'done'
